@@ -9,7 +9,7 @@ namespace PoolWalletStatus2InfluxDb.Model
     public class ZpoolStatus
     {
         public string currency { get; set; }
-        public int unsold { get; set; }
+        public double unsold { get; set; }
         public double balance { get; set; }
         public double unpaid { get; set; }
         public double paid24h { get; set; }
